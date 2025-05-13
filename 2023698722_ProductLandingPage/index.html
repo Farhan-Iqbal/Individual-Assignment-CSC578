@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Android Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Android_logo_2019.png" alt="Android Logo">
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Download</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Discover Android</h1>
+    <p>Powering billions of devices around the world</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input name="email" id="email" type="email" placeholder="Enter your email" required />
+      <input id="submit" type="submit" value="Get Updates" class="btn" />
+    </form>
+  </section>
+
+  <section id="features">
+    <div class="grid">
+      <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/888/888839.png" alt="Secure" /></div>
+      <div class="desc">
+        <h2>Secure & Reliable</h2>
+        <p>Android provides robust security with Google Play Protect and regular updates to keep your device safe.</p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/3004/3004143.png" alt="Customizable" /></div>
+      <div class="desc">
+        <h2>Fully Customizable</h2>
+        <p>Make your device truly yours. Customize your home screen, widgets, and more with Android's flexible OS.</p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/3199/3199302.png" alt="Apps" /></div>
+      <div class="desc">
+        <h2>Millions of Apps</h2>
+        <p>Access a vast ecosystem of apps through the Google Play Store, from productivity to entertainment.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works">
+    <iframe id="video" height="315" src="https://www.youtube.com/embed/qHyalaIRNpM" title="Why Android Is More Popular Than iPhone | WSJ" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section id="pricing">
+    <div class="product">
+      <div class="level">Android 14</div>
+      <h2>Free</h2>
+      <ol>
+        <li>Latest features</li>
+        <li>Enhanced privacy</li>
+        <li>Material You design</li>
+      </ol>
+      <button class="btn">Download</button>
+    </div>
+    <div class="product">
+      <div class="level">Android Beta</div>
+      <h2>Free</h2>
+      <ol>
+        <li>Early access to features</li>
+        <li>Help improve Android</li>
+        <li>Developer tools</li>
+      </ol>
+      <button class="btn">Join Beta</button>
+    </div>
+    <div class="product">
+      <div class="level">Android for Developers</div>
+      <h2>Free</h2>
+      <ol>
+        <li>Full SDK</li>
+        <li>Emulator & Studio</li>
+        <li>API libraries</li>
+      </ol>
+      <button class="btn">Explore Tools</button>
+    </div>
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>© 2025 Android. All rights reserved.</span>
+  </footer>
+</body>
+</html>
