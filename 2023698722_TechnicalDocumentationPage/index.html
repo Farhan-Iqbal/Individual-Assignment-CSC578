@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>HTML Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+        <li><a class="nav-link" href="#HTML_and_CSS">HTML and CSS</a></li>
+        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+        <li><a class="nav-link" href="#Elements">Elements</a></li>
+        <li><a class="nav-link" href="#Attributes">Attributes</a></li>
+        <li><a class="nav-link" href="#Nesting_elements">Nesting elements</a></li>
+        <li><a class="nav-link" href="#Block_and_inline">Block and inline</a></li>
+        <li><a class="nav-link" href="#Common_tags">Common tags</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            HTML (HyperText Markup Language) is the standard markup language used to create web pages. It provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript.
+          </p>
+          <p>
+            HTML uses "elements" represented by tags to structure content. These include headings, paragraphs, links, lists, images, and more.
+          </p>
+        </article>
+      </section>
+
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <article>
+          <p>This guide assumes you have the following basic background:</p>
+          <ul>
+            <li>General understanding of the Internet and the World Wide Web (WWW).</li>
+            <li>Basic knowledge of using a text editor.</li>
+            <li>Some familiarity with web browsers and how to view page source.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="HTML_and_CSS">
+        <header>HTML and CSS</header>
+        <article>
+          <p>
+            HTML defines the structure of your web content. CSS (Cascading Style Sheets) is used to control the presentation, formatting, and layout.
+          </p>
+          <p>
+            While HTML is concerned with content and structure, CSS handles the appearance. For example, you write a heading in HTML and style its color and size with CSS.
+          </p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Hello_world">
+        <header>Hello world</header>
+        <article>
+          <p>Here's a basic "Hello, World!" example in HTML:</p>
+          <code>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Hello World&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Hello, World!&lt;/h1&gt;<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+          </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Elements">
+        <header>Elements</header>
+        <article>
+          <p>
+            HTML documents are made up of elements. An element usually consists of a start tag, content, and an end tag.
+          </p>
+          <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+          <p>
+            Some elements are self-closing, meaning they don't need a closing tag.
+          </p>
+          <code>&lt;br&gt;</code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Attributes">
+        <header>Attributes</header>
+        <article>
+          <p>
+            HTML elements can have attributes that provide additional information about the element.
+          </p>
+          <code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code>
+          <p>
+            Common attributes include <code>href</code>, <code>src</code>, <code>alt</code>, <code>id</code>, and <code>class</code>.
+          </p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Nesting_elements">
+        <header>Nesting elements</header>
+        <article>
+          <p>
+            HTML allows elements to be nested within each other. Proper nesting is important for valid structure.
+          </p>
+          <code>
+            &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+            &lt;/ul&gt;
+          </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Block_and_inline">
+        <header>Block and inline</header>
+        <article>
+          <p>
+            HTML elements are either block-level or inline-level. Block elements take up the full width and start on a new line. Inline elements do not start on a new line and only take up as much width as necessary.
+          </p>
+          <ul>
+            <li><strong>Block:</strong> &lt;div&gt;, &lt;p&gt;, &lt;h1&gt;-&lt;h6&gt;</li>
+            <li><strong>Inline:</strong> &lt;span&gt;, &lt;a&gt;, &lt;strong&gt;</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="Common_tags">
+        <header>Common tags</header>
+        <article>
+          <p>Here are some frequently used HTML tags:</p>
+          <ul>
+            <li>&lt;h1&gt; to &lt;h6&gt; - Headings</li>
+            <li>&lt;p&gt; - Paragraph</li>
+            <li>&lt;a&gt; - Anchor (link)</li>
+            <li>&lt;img&gt; - Image</li>
+            <li>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; - Lists</li>
+            <li>&lt;table&gt;, &lt;tr&gt;, &lt;td&gt; - Tables</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is based on
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

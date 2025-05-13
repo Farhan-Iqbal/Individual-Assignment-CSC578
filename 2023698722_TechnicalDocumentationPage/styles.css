@@ -1,0 +1,106 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #fff9c4; /* pastel yellow */
+}
+
+/* Sidebar Navigation */
+nav#navbar {
+  width: 300px;
+  background-color: white;
+  border-right: 2px solid #ccc;
+  padding: 10px 0;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+nav#navbar header {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+nav#navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav#navbar ul li {
+  border-top: 1px solid #ddd;
+}
+
+nav#navbar a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 12px 20px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+nav#navbar a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Main content */
+#main-doc {
+  margin-left: 320px;
+  padding: 30px;
+  flex-grow: 1;
+}
+
+/* Highlighted topic boxes */
+section.main-section {
+  background-color: #fffde7; /* lighter pastel yellow */
+  border: 2px solid #fdd835;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Topic headers */
+section.main-section > header {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #4e342e;
+  margin-bottom: 10px;
+}
+
+/* Code block */
+code {
+  background-color: #f4f4f4;
+  padding: 10px;
+  display: block;
+  margin: 10px 0;
+  white-space: pre-wrap;
+  border-left: 4px solid #ccc;
+  font-family: monospace;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  nav#navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    box-shadow: none;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
